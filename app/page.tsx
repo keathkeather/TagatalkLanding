@@ -1,10 +1,12 @@
-import Image from "next/image";
+import NavBar from "./components/NavBar";
 import Features from "./components/Features";
+
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
       <>
         <div>
+          <NavBar />
           <Features />
         </div>
       </>
