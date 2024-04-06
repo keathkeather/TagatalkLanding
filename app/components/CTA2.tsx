@@ -2,8 +2,8 @@ import React from "react";
 
 export default function CTA2() {
     return (
-        <div className="flex justify-center items-center mb-[28px]">
-            <div className="relative w-[1400px] h-[300px] bg-white overflow-hidden z-0">
+        <div className="flex justify-center items-center mb-[28px] bg-slate-50 overflow-hidden">
+            <div className="relative w-[1400px] h-[300px] bg-slate-50 overflow-hidden z-0">
                 <div className="absolute  z-0 ">
                     <img src="/purple-rectangle.svg" alt="Image 1" />
                     <div className="absolute top-4 left-[97px] text-white m-0 p-0">
