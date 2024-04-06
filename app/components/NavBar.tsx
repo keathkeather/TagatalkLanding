@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
     return (
-        <header className="pt-[38px] pb-[20px] flex justify-center">
+        <header className="pt-[38px] pb-[20px] flex justify-center bg-slate-50">
             <div className="w-[1230px] bg-[#F4F4F4] bg-opacity-50 rounded-[50px] shadow-lg p-[15px]">
                 <div className="px-[40px] sm:flex sm:items-center sm:justify-between">
                     <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
