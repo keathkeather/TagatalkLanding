@@ -6,7 +6,7 @@ export default function CTA2() {
             <div className="relative w-[1400px] h-[300px] bg-slate-50 overflow-hidden z-0">
                 <div className="absolute  z-0 ">
                     <img src="/purple-rectangle.svg" alt="Image 1" />
-                    <div className="absolute top-4 left-[97px] text-white m-0 p-0">
+                    <div className="absolute top-[35px] left-[97px] text-white m-0 p-0">
                     <div className="flex items-center mb-2">
                         <img src="/logo-v1.svg" alt="Image 1" className="mr-2" />
                         <div className="font-space-grotesk text-[32px] font-bold" style={{ lineHeight: '1' }} >Get more TagaTalk <br/>updates!</div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Features() {
   return (
-    <div className="relative w-full h-[1072px] bg-white shadow-inner">
+    <div className="relative w-full h-[1072px]" style={{ background: "linear-gradient(to bottom, #f4f4f4, #F8FAFC)" }}>
         <div className="absolute top-0 right-0 mr-[120px] mt-[102px] text-right text-black z-10" style={{ width: '40%' }}>
             <p className="text-6xl font-bold font-space-grotesk">
             Awesome features of <span style={{ color: '#FD9F10' }}>TagaTalk.</span>
@@ -27,14 +27,14 @@ export default function Features() {
             <p className="font-bold font-poppins text-[18px] mb-2">Progress Tracking</p>
             <p className="text-sm font-poppins">Effortlessly monitor your language journey with our built-in progress tracking feature, keeping you motivated and informed every step of the way.</p>
         </div>
-        <div className="absolute top-40 right-0 mt-40 mr-[120px] text-left text-black z-10" style={{ width: '22%' }}>
+        <div className="absolute top-40 right-0 mt-40 mr-[120px] text-left text-black z-10" style={{ width: '19%' }}>
             <div style={{ marginLeft: '-30px' }}>
                 <img src="/flogo3.svg" alt="Logo 3" className="w-[150px] h-[80px] mb-4" />
             </div>
             <p className="font-bold font-poppins text-[18px] mb-2">Visual Narrative Sandbox</p>
             <p className="text-sm font-poppins">Unleash your creativity where you can craft captivating stories inspired by provided images, fostering imagination and language proficiency in an interactive environment.</p>
         </div>
-        <div className="absolute top-80 right-0 mt-80 mr-[120px] text-left text-black z-10" style={{ width: '22%' }}>
+        <div className="absolute top-80 right-0 mt-80 mr-[120px] text-left text-black z-10" style={{ width: '19%' }}>
             <div style={{ marginLeft: '-30px' }}>
                 <img src="/flogo4.svg" alt="Logo 4" className="w-[150px] h-[80px] mb-4" />
             </div>
