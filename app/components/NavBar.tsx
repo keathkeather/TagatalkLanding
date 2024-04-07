@@ -10,13 +10,13 @@ export default function NavBar() {
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-[14px] font-medium text-black sm:mb-0">
                         <li>
-                            <a href="#" className="hover:text-orange-400  me-4 md:me-6 mb">Features</a>
+                            <a href="#features" className="hover:text-orange-400  me-4 md:me-6 mb">Features</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-orange-400 me-4 md:me-6">How it Works</a>
+                            <a href="#how" className="hover:text-orange-400 me-4 md:me-6">How it Works</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-orange-400 me-4 md:me-6">About Us</a>
+                            <a href="#about" className="hover:text-orange-400 me-4 md:me-6">About Us</a>
                         </li>
                     </ul>
                 </div>
