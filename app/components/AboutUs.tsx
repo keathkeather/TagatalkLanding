@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export default function AboutUs() {
     return (
@@ -17,7 +18,7 @@ export default function AboutUs() {
                 is passionately dedicated to empowering individuals in mastering Filipino language. With unique expertise, we craft 
                 intuitive interfaces and immersive lessons, fostering connections and enriching lives through language empowerment. </div>
 
-                <img className="w-[159px] h-[42px] left-[218px] top-[626px] absolute" src='arrow4.svg' />
+                <Image alt="arrow4"className="w-[159px] h-[42px] left-[218px] top-[626px] absolute" src='arrow4.svg' />
             
                 <div className="w-[325px] h-[55px] z-10 p-2 left-[442px] top-[619px] absolute bg-black rounded-[50px] border border-black justify-center items-center gap-2 inline-flex">
                     <div className="text-white text-base font-normal font-space-grotesk">The amazing TagaTalk creators!</div>
@@ -25,11 +26,11 @@ export default function AboutUs() {
 
                 <div className="absolute w-[639px] h-[671px] left-[693px] top-[91px] bg-zinc-300 bg-opacity-20 rounded-[19.41px] shadow backdrop-blur-[50px]" />
                 
-                <img className="w-[207px] h-[155px] left-[808px] top-[156px] absolute" src='rynze.svg' />
-                <img className="w-[205px] h-[233px] left-[1045px] top-[142px] absolute" src='keath.svg'/>
-                <img className="w-[228px] h-[159px] left-[767px] top-[344px] absolute" src="shania.svg" />
-                <img className="w-[206px] h-[146px] left-[807px] top-[534px] absolute" src="rj.svg" />
-                <img className="w-[210px] h-[238px] left-[1040px] top-[399px] absolute" src="pettes.svg" />
+                <Image  alt ="rynze.svg" className="w-[207px] h-[155px] left-[808px] top-[156px] absolute" src='rynze.svg' />
+                <Image  alt ="keath.svg"className="w-[205px] h-[233px] left-[1045px] top-[142px] absolute" src='keath.svg'/>
+                <Image  alt ="shania.svg"className="w-[228px] h-[159px] left-[767px] top-[344px] absolute" src="shania.svg" />
+                <Image  alt ="rj.svg"className="w-[206px] h-[146px] left-[807px] top-[534px] absolute" src="rj.svg" />
+                <Image  alt ="pettes.svg"className="w-[210px] h-[238px] left-[1040px] top-[399px] absolute" src="pettes.svg" />
 
                 <div className="w-32 h-10 left-[743px] top-[256px] absolute">
                     <div className="w-32 h-10 left-0 top-0 absolute bg-gradient-to-r from-amber-500 to-orange-400 shadow" />
@@ -56,11 +57,11 @@ export default function AboutUs() {
                     <div className="left-[20px] top-[9px] absolute text-center text-white text-base font-medium font-space-grotesk">Rustico John</div>
                 </div>
 
-                <img className="w-[45px] h-[45px] left-[1265px] top-[65px] absolute" src="bigstar1.svg" />
-                <img className="w-[22px] h-[19px] left-[1310px] top-[104px] absolute" src="smallstar1.svg" />
+                <Image alt="bigstar" className="w-[45px] h-[45px] left-[1265px] top-[65px] absolute" src="bigstar1.svg" />
+                <Image alt="smallstar"className="w-[22px] h-[19px] left-[1310px] top-[104px] absolute" src="smallstar1.svg" />
 
-                <img className="w-[45px] h-[45px] left-[658px] top-[723px] absolute" src="bigstar2.svg" />
-                <img className="w-[22px] h-[19px] left-[703px] top-[762px] absolute" src="smallstar2.svg" />
+                <Image alt="bigstar2"className="w-[45px] h-[45px] left-[658px] top-[723px] absolute" src="bigstar2.svg" />
+                <Image alt="smallstar2"className="w-[22px] h-[19px] left-[703px] top-[762px] absolute" src="smallstar2.svg" />
             </div>
         </div>
     );
